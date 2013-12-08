@@ -27,7 +27,7 @@ package com.brwskagroup.bgpasskeeper;
 
 
 /**
- *
+ * This is the main class of the application. The application initializes here.
  * @author rawand
  */
 public class Application {
