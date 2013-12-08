@@ -4,7 +4,3 @@
 *.jar
 *.war
 *.ear
-
-BG PassKeeper/src/com/brwskagroup/bgpasskeeper/Application.java
-
-*.java
