@@ -21,17 +21,24 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-
 package com.brwskagroup.bgpasskeeper;
 
 
 
 /**
  * This is the main class of the application. The application initializes here.
- * @author rawand
+ *
+ * @author Brwska Group (Rawand Fatih)
  */
 public class Application {
+
   public static void main(String[] args) {
-    System.out.println("Hello World");
+    java.awt.EventQueue.invokeLater(new Runnable() {
+      @Override
+      public void run() {
+        MainFrame mainFrame = new MainFrame();
+      }
+    });
   }
+
 }
